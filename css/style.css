@@ -1258,8 +1258,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_about.scss */
 .about_area {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background: #FDF9F6;
 }
 
@@ -1413,8 +1413,10 @@ h3 {
     position: absolute;
     right: 0;
     bottom: 0;
-    border-top: 15px solid #ffffff;
-    border-left: 15px solid #ffffff;
+    border-top: 15px solid
+ #ffffff;
+    border-left: 15px solid
+ #ffffff;
     top: auto;
     width: 50%;
     height: 60%;
@@ -1438,8 +1440,8 @@ h3 {
 .prising_area {
   position: relative;
   background: #fdf9f6;
-  padding-top: 144px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   z-index: 0;
 }
 
@@ -1495,9 +1497,9 @@ h3 {
   height: 1px;
   content: '';
   border-bottom: 1px dashed #d7d4d1;
-  bottom: 7px;
-  left: 29%;
-  right: 12%;
+  bottom: 3px;
+  left: 0%;
+  right: 0%;
 }
 
 /* line 51, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_prising.scss */
@@ -1613,8 +1615,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_service.scss */
 .service_area {
-  padding-top: 150px;
-  padding-bottom: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 @media (max-width: 767px) {
@@ -1726,8 +1728,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_team.scss */
 .team_area {
-  padding-bottom: 120px;
-  padding-top: 150px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 @media (max-width: 767px) {
@@ -1797,8 +1799,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_make_apointment.scss */
 .make_apppointment_area {
-  padding-top: 150px;
-  padding-bottom: 120px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   background: #fdf9f6;
 }
 
@@ -3560,6 +3562,32 @@ h6 {
 /* line 353, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_elements.scss */
 .progress-table-wrap {
   overflow-x: scroll;
+}
+
+.prising-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.prising-table th,
+.prising-table tr {
+  border: 1px solid: #cccccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.prising-table th:nth-child(1),
+.prising-table td:nth-child(1) {
+    width: 40%;
+}
+
+.prising-table th:nth-child(2),
+.prising-table td:nth-child(2),
+.prising-table th:nth-child(3),
+.prising-table td:nth-child(3),
+.prising-table th:nth-child(4),
+.prising-table td:nth-child(4) {
+    width: 20%;
 }
 
 /* line 357, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_elements.scss */
